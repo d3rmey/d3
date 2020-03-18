@@ -28,9 +28,9 @@ Thanks! :heart:
 
 
 ```sh
-git clone https://github.com//d3rmey/d3
+git clone https://github.com/d3rmey/d3
 
-cd stalker/
+cd d3/
 
 chmod +x install
 
