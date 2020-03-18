@@ -28,7 +28,7 @@ Thanks! :heart:
 
 
 ```sh
-git clone https://github.com/SlaSerX/stalker
+git clone https://github.com//d3rmey/d3
 
 cd stalker/
 
