@@ -1,5 +1,5 @@
 
-
+STALKER PORTAL / MINISTRA PLATAFORMA 5.6.1
 
 
 
@@ -10,10 +10,8 @@ cd d3/
 chmod +x install
 
 ./install
-```
 
 
-<b>Script work only on Clean Debian/Ubuntu install servers</b>
 
 
 Stalker auto install script v1.2.9 - RELEASE
