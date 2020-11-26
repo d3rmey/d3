@@ -149,7 +149,7 @@ apt-get update
 
 sleep 1
 
-# Pear
+# Pear 2.16.1
 pear channel-discover pear.phing.info
 pear install phing/phing-2.16.1
 sleep 1
