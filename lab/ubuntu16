@@ -1,17 +1,17 @@
 #!/bin/bash
 
-# Stalker WM Portal Ministra road warrior installer for Debian, Ubuntu
+# Stalker WM Portal Ministra instalador road warrior para Debian, Ubuntu
 
-# This script will work on Debian, Ubuntu and probably other distros
-# of the same families, although no support is offered for them. It isn't
-# bulletproof but it will probably work if you simply want to setup a Stalker WM Portal on
-# your Debian/Ubuntu box. It has been designed to be as unobtrusive and
-# universal as possible.
+# Este script funcionará no Debian, Ubuntu e provavelmente outras distros
+# das mesmas famílias, embora nenhum apoio seja oferecido para elas. Não é
+# à prova de balas, mas provavelmente funcionará se você simplesmente quiser configurar um Stalker WM Portal em
+# sua caixa Debian / Ubuntu. Ele foi projetado para ser tão discreto e
+# universal quanto possível.
 
-# This is a free shell script under GNU GPL version 3.0 or above
-# Copyright (C) 2017 LinuxHelps project.
-# Feedback/comment/suggestions : https://linuxhelps.net/
-# Author Ivan Bachvarov a.k.a SlaSerX
+# Este é um script de shell gratuito sob GNU GPL versão 3.0 ou superior
+# Copyright (C) 2017 projeto LinuxHelps.
+# Feedback / comentário / sugestões: https://linuxhelps.net/
+
 
 
 # Color schema
@@ -96,17 +96,19 @@ yesno () {
 
 install_msg() {
 cat <<EOF
-  Welcome to the ${RED}$PRODUCT${NORMAL} installer, version ${RED}$VER${NORMAL}
-  This script must be run on a freshly installed supported OS. It does not
-  perform updates or upgrades (use your system package manager).
-  The systems currently supported by install.sh are:
+  Bem-vindo ao instalador de ${RED}$PRODUCT${NORMAL}, versão ${RED}$VER${NORMAL}
+   Este script deve ser executado em um sistema operacional compatível instalado recentemente. Isso não
+   execute atualizações ou upgrades (use o gerenciador de pacotes do sistema).
+   Os sistemas atualmente suportados por install.sh são:
 EOF
 echo "${CYAN}$supported${NORMAL}"
 cat <<EOF
-  If your OS/version/arch is not listed, installation ${RED}will fail${NORMAL}. More
-  details about the systems supported by the script can be found here:
-    ${UNDERLINE}${CYAN}https://github.com/d3rmey/d3/blob/master/docs/os-suport${NORMAL}
-EOF
+  Se o seu OS/versão/arquitetura não estiver listado, a instalação ${RED}will fail${NORMAL}. Mais
+   detalhes sobre os sistemas suportados pelo script podem ser encontrados aqui:
+   
+   ${UNDERLINE}${CYAN}https://github.com/SlaSerX/stalker/blob/master/docs/os-suport${NORMAL}
+   
+ EOF
 
   printf " Continue? (y/n) "
   if ! yesno; then
