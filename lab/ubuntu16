@@ -236,7 +236,9 @@ chmod 777 /var/www/.npm
 cd /var/www/html/stalker_portal/deploy
 wget http://172.22.200.222:25500/ministra/composer_version_1.9.1.patch
 sudo patch -p0 < composer_version_1.9.1.patch
+sleep 1
 echo build.xml
+sleep 1
 sudo phing
 sleep 1
 smallLoader
