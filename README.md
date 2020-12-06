@@ -5,7 +5,7 @@ STALKER PORTAL / MINISTRA PLATAFORMA 5.6.1
 
 git clone https://github.com/d3rmey/d3
 
-cd d3/
+cd d3
 
 chmod +x install
 
