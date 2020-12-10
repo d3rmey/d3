@@ -12,6 +12,10 @@ chmod +x install
 ./install
 
 
+File to patch: 
+
+#digite: buil.xml (ENTER)
+
 
 
 Stalker auto install script v1.2.9 - RELEASE
