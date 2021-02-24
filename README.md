@@ -14,7 +14,7 @@ chmod +x install
 
 File to patch: 
 
-#digite: buil.xml (ENTER)
+#digite: build.xml (ENTER)
 
 
 
